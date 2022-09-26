@@ -35,17 +35,21 @@ console.log("------------------------------------------------------------");
 console.log("------------------------------------------------------------");
 console.log(bookshopOne.findBook("El idiota"));
 console.log("------------------------------------------------------------");
+var nombreArchivo = './LibroABuscar.txt';
+var contenidoArchivo = fs.readFileSync(nombreArchivo, 'utf8');
+console.log(bookshopOne.findBook(contenidoArchivo));
+console.log("------------------------------------------------------------");
 // Cambiamos Ideoma del Libro "Crimen y castigo"
 console.log("------------------------------------------------------------");
 bookshopOne.changeBook("Crimen y castigo");
 console.log("------------------------------------------------------------");
 // se borra el libro "Middlemarch"
 console.log("------------------------------------------------------------");
-bookshopOne.deleteBook("El hombre invisible");
+bookshopOne.deleteBook("Middlemarch");
 console.log("------------------------------------------------------------");
 // leo Libros de una TXT
-var fileName = './bbdd_libros_01.txt';
-var fileContent = fs.readFileSync(fileName, 'utf8');
+/* const nombreBbddTxt: string = './bbdd_libros_01.txt';
+let contenidoBbddTxt = fs.readFileSync(nombreBbddTxt, 'utf8');
 console.log("------------------------------------------------------------");
-console.log(fileContent);
-console.log("------------------------------------------------------------");
+console.log(contenidoBbddTxt);
+console.log("------------------------------------------------------------"); */

@@ -43,6 +43,10 @@ console.log("------------------------------------------------------------");
 console.log("------------------------------------------------------------");
 console.log(bookshopOne.findBook("El idiota"));
 console.log("------------------------------------------------------------");
+const nombreArchivo: string = './LibroABuscar.txt';
+let contenidoArchivo = fs.readFileSync(nombreArchivo, 'utf8');
+console.log(bookshopOne.findBook(contenidoArchivo));
+console.log("------------------------------------------------------------");
 
 // Cambiamos Ideoma del Libro "Crimen y castigo"
 console.log("------------------------------------------------------------");
@@ -56,11 +60,11 @@ console.log("------------------------------------------------------------");
 
 // leo Libros de una TXT
 
-const fileName: string = './bbdd_libros_01.txt';
-let fileContent = fs.readFileSync(fileName, 'utf8');
+/* const nombreBbddTxt: string = './bbdd_libros_01.txt';
+let contenidoBbddTxt = fs.readFileSync(nombreBbddTxt, 'utf8');
 console.log("------------------------------------------------------------");
-console.log(fileContent);
-console.log("------------------------------------------------------------");
+console.log(contenidoBbddTxt);
+console.log("------------------------------------------------------------"); */
 
 
 
