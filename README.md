@@ -20,3 +20,7 @@ Aclaración:
 La funcionalidad de leer libros de un archivo de texto es opcional.
 No es obligatorio modularizar las clases en diferentes archivos.
 Enfóquense en tener una codificación que resuelva lo propuesto y luego si se animan a mejorarlo genial!!!.
+
+// UML de Clases
+
+![image](https://user-images.githubusercontent.com/104039810/192361208-927b6ac9-4705-4695-a512-ea9644d23df3.png)
