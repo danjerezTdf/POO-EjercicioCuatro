@@ -3,7 +3,7 @@ import { Libro } from './Ejercicio_class_Libro';
 import { GestorLibros } from './Ejercicio_class_GestorLibros';
 
 // Importo Modulo de lectora por consola
-// import * as fs from 'fs';
+ import * as fs from 'fs';
 let readlineSync = require('readline-sync');
 
 // Se instancian libros
@@ -54,6 +54,13 @@ console.log("------------------------------------------------------------");
 bookshopOne.deleteBook("Middlemarch");
 console.log("------------------------------------------------------------");
 
+// leo Libros de una TXT
+
+const fileName: string = './bbdd_libros_01.txt';
+let fileContent = fs.readFileSync(fileName, 'utf8');
+console.log("------------------------------------------------------------");
+console.log(fileContent);
+console.log("------------------------------------------------------------");
 
 
 

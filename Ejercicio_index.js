@@ -4,7 +4,7 @@ exports.__esModule = true;
 var Ejercicio_class_Libro_1 = require("./Ejercicio_class_Libro");
 var Ejercicio_class_GestorLibros_1 = require("./Ejercicio_class_GestorLibros");
 // Importo Modulo de lectora por consola
-// import * as fs from 'fs';
+var fs = require("fs");
 var readlineSync = require('readline-sync');
 // Se instancian libros
 var libroA = new Ejercicio_class_Libro_1.Libro("Relatos cortos", "Anton Chejov", 1886, "Ruso");
@@ -42,4 +42,10 @@ console.log("------------------------------------------------------------");
 // se borra el libro "Middlemarch"
 console.log("------------------------------------------------------------");
 bookshopOne.deleteBook("Middlemarch");
+console.log("------------------------------------------------------------");
+// leo Libros de una TXT
+var fileName = './bbdd_libros_01.txt';
+var fileContent = fs.readFileSync(fileName, 'utf8');
+console.log("------------------------------------------------------------");
+console.log(fileContent);
 console.log("------------------------------------------------------------");
