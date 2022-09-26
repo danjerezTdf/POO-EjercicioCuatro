@@ -1,3 +1,4 @@
+// Modelo y exporto Clase Libro
 export class Libro {
     private titulo: string;
     private autor: string;

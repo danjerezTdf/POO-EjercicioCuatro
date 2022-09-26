@@ -1,0 +1,12 @@
+Titulo;Autor;Anio;Idioma
+Relatos cortos;Anton Chejov;1886;Ruso
+Nostromo;Joseph Conrad;1904;Ingles
+Grandes Esperanzas;Charles Dickens;1861;Ingles
+Jacques el fatalista;Denis Diderot;1796;Frances
+Berlin Alexanderplatz;Alfred Doblin;1929;Aleman
+Crimen y castigo;Fiodor Dostoievski;1866;Ruso
+El idiota;Fiodor Dostoievski;1869;Ruso
+Los endemoniados;Fiodor Dostoievski;1872;Ruso
+Los hermanos Karamazov;Fiodor Dostoievski;1880;Ruso
+Middlemarch;George Eliot;1871;Ingles
+El hombre invisible;Ralph Ellison;1952;Ingles

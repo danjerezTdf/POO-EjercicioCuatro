@@ -1,0 +1,68 @@
+[
+  {
+    "Titulo": "Relatos cortos",
+    "Autor": "Anton Chejov",
+    "Anio": 1886,
+    "Idioma": "Ruso"
+  },
+  {
+    "Titulo": "Nostromo",
+    "Autor": "Joseph Conrad",
+    "Anio": 1904,
+    "Idioma": "Ingles"
+  },
+  {
+    "Titulo": "Grandes Esperanzas",
+    "Autor": "Charles Dickens",
+    "Anio": 1861,
+    "Idioma": "Ingles"
+  },
+  {
+    "Titulo": "Jacques el fatalista",
+    "Autor": "Denis Diderot",
+    "Anio": 1796,
+    "Idioma": "Frances"
+  },
+  {
+    "Titulo": "Berlin Alexanderplatz",
+    "Autor": "Alfred Doblin",
+    "Anio": 1929,
+    "Idioma": "Aleman"
+  },
+  {
+    "Titulo": "Crimen y castigo",
+    "Autor": "Fiodor Dostoievski",
+    "Anio": 1866,
+    "Idioma": "Ruso"
+  },
+  {
+    "Titulo": "El idiota",
+    "Autor": "Fiodor Dostoievski",
+    "Anio": 1869,
+    "Idioma": "Ruso"
+  },
+  {
+    "Titulo": "Los endemoniados",
+    "Autor": "Fiodor Dostoievski",
+    "Anio": 1872,
+    "Idioma": "Ruso"
+  },
+  {
+    "Titulo": "Los hermanos Karamazov",
+    "Autor": "Fiodor Dostoievski",
+    "Anio": 1880,
+    "Idioma": "Ruso"
+  },
+  {
+    "Titulo": "Middlemarch",
+    "Autor": "George Eliot",
+    "Anio": 1871,
+    "Idioma": "Ingles"
+  },
+  {
+    "Titulo": "El hombre invisible",
+    "Autor": "Ralph Ellison",
+    "Anio": 1952,
+    "Idioma": "Ingles"
+  }
+]
