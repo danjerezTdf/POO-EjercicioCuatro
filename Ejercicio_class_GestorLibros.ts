@@ -29,16 +29,16 @@ export class GestorLibros{
         this.listBook.push(book);
         console.log("Se Agrego Libro "+ book.getTitulo());
     }
-    public findBook(titleBook: string):Libro{
+    public findBook(titleBook: string):Libro | undefined{
         for (let i = 0; i < this.listBook.length; i++) {
             if (titleBook === this.listBook[i].getTitulo()){
                 return this.getBook(i);
             }        
         }
         console.log("No se encontor Libro")
-      return this.getBook(-1);   
+     // return this.getBook(-1);   
     }
-    public changeBook(titleBook: string): Libro {
+    public changeBook(titleBook: string): Libro | undefined {
         for (let i = 0; i < this.listBook.length;i++) {
             if (titleBook === this.listBook[i].getTitulo()){
                 this.listBook[i].setTitulo(readlineSync.question("Ingrese Titulo Nuevo: "));
@@ -50,13 +50,14 @@ export class GestorLibros{
             }
         }
         console.log("No se Encontro Libro")
-        return this.getBook(-1)
+        //return this.getBook(-1)
     }
     public deleteBook(titleBook: string): void {
         for (let i = 0; i < this.listBook.length;i++) {
             if (titleBook === this.listBook[i].getTitulo()){
-                this.listBook.splice(i, 1);
                 console.log("Se Borro libro "+ this.listBook[i].getTitulo());
+                this.listBook.splice(i, 1);
+                
             }
         }
     }

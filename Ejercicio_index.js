@@ -41,7 +41,7 @@ bookshopOne.changeBook("Crimen y castigo");
 console.log("------------------------------------------------------------");
 // se borra el libro "Middlemarch"
 console.log("------------------------------------------------------------");
-bookshopOne.deleteBook("Middlemarch");
+bookshopOne.deleteBook("El hombre invisible");
 console.log("------------------------------------------------------------");
 // leo Libros de una TXT
 var fileName = './bbdd_libros_01.txt';

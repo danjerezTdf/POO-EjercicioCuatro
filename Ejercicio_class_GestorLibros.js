@@ -29,7 +29,7 @@ var GestorLibros = /** @class */ (function () {
             }
         }
         console.log("No se encontor Libro");
-        return this.getBook(-1);
+        // return this.getBook(-1);   
     };
     GestorLibros.prototype.changeBook = function (titleBook) {
         for (var i = 0; i < this.listBook.length; i++) {
@@ -43,13 +43,13 @@ var GestorLibros = /** @class */ (function () {
             }
         }
         console.log("No se Encontro Libro");
-        return this.getBook(-1);
+        //return this.getBook(-1)
     };
     GestorLibros.prototype.deleteBook = function (titleBook) {
         for (var i = 0; i < this.listBook.length; i++) {
             if (titleBook === this.listBook[i].getTitulo()) {
-                this.listBook.splice(i, 1);
                 console.log("Se Borro libro " + this.listBook[i].getTitulo());
+                this.listBook.splice(i, 1);
             }
         }
     };
